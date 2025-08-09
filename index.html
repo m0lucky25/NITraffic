@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LIVEVIEW : NI — Traffic Smarter. Drive Safer</title>
+  <meta name="description" content="LIVEVIEW : NI — Latest Northern Ireland traffic CCTV images, refreshed every 2 seconds.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <link rel="manifest" href="data:application/manifest+json,{\"name\":\"LIVEVIEW : NI\",\"short_name\":\"LIVEVIEW\",\"start_url\":\"./\"}">
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <!-- Header / Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark-acc py-3 border-bottom border-neo">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+        <img id="brandLogo" src="logo.png" alt="LIVEVIEW NI" onerror="this.style.display='none'" height="36">
+        <div class="d-flex flex-column lh-1">
+          <span class="brand-title">LIVEVIEW : <span class="text-neo">NI</span></span>
+          <small class="brand-subtitle text-secondary">Traffic Smarter. Drive Safer</small>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNav" aria-controls="topNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="topNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center gap-2 gap-lg-3">
+          <li class="nav-item">
+            <button id="btnNearMe" class="btn btn-neo-subtle"><i class="bi bi-geo-alt-fill me-1"></i>Cameras Close to Me</button>
+            <select id="radiusSelect" class="form-select form-select-sm d-inline-block ms-2 radius-select d-none" aria-label="Within miles">
+              <option value="">Within…</option>
+              <option value="5">5 mi</option>
+              <option value="10">10 mi</option>
+              <option value="15">15 mi</option>
+              <option value="25">25 mi</option>
+              <option value="50">50 mi</option>
+              <option value="100">100 mi</option>
+            </select>
+            <button id="btnRolling" class="btn btn-neo-subtle"><i class="bi bi-grid-3x3-gap-fill me-1"></i>Rolling Grid</button>
+            <button id="btnMap" class="btn btn-neo-subtle"><i class="bi bi-map-fill me-1"></i>Maps</button>
+            <button id="btnRegions" class="btn btn-neo-subtle"><i class="bi bi-funnel-fill me-1"></i>Filter Regions</button>
+          </li>
+          <li class="nav-item">
+            <div class="input-group input-group-sm search-wrap">
+              <span class="input-group-text bg-dark-acc text-neo border-neo"><i class="bi bi-search"></i></span>
+              <input id="searchInput" class="form-control form-control-sm" type="search" placeholder="Search cameras, roads…">
+            </div>
+          </li>
+          <li class="nav-item"><button id="btnFavs" class="btn btn-neo-subtle"><i class="bi bi-star-fill text-warning me-1"></i> Show Favourites</button></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Info Bar -->
+  <section class="container-fluid py-2 small text-secondary">
+    <div class="d-flex align-items-center gap-3 flex-wrap">
+      <div class="d-flex align-items-center gap-2">
+        <span class="pulse-dot"></span>
+        <span>Images are <strong class="text-neo">live</strong></span>
+      </div>
+      <div class="vr d-none d-sm-block"></div>
+      <div><span id="camCount" class="text-neo">0</span> cameras</div>
+      <div class="ms-auto"><span id="statusText" class="text-secondary">Loading cameras…</span></div>
+    </div>
+  </section>
+
+  <!-- Regions Filter Chips -->
+  <section class="container mb-2" id="regionChips" hidden></section>
+
+  <!-- Grid -->
+  <main class="container pb-5 flex-grow-1">
+    <!-- Standard grid -->
+    <div id="grid" class="row g-3"></div>
+    <!-- Rolling grid inline view -->
+    <section id="rollingSection" class="my-3" hidden>
+      <div class="d-flex align-items-center justify-content-between mb-2">
+        <div class="small text-secondary">Rolling Grid • cycling 4 cameras</div>
+        <div class="badge text-bg-neo" id="rollCountdown">6</div>
+      </div>
+      <div id="rollingGrid" class="rolling-grid">
+        <div class="cell"><img class="rg-img fade" alt="Camera 1"></div>
+        <div class="cell"><img class="rg-img fade" alt="Camera 2"></div>
+        <div class="cell"><img class="rg-img fade" alt="Camera 3"></div>
+        <div class="cell"><img class="rg-img fade" alt="Camera 4"></div>
+      </div>
+    </section>
+    <!-- Map view -->
+    <section id="mapSection" class="my-3" hidden>
+      <div id="map" class="map-canvas"></div>
+    </section>
+  </main>
+
+  <!-- Region Modal -->
+  <div class="modal fade" id="regionModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content bg-dark-acc text-light">
+        <div class="modal-header border-neo">
+          <h5 class="modal-title">Filter Regions</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div id="regionList" class="d-flex flex-wrap gap-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <template id="cardTemplate">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+      <div class="card cam-card h-100 bg-dark-acc border-neo text-light shadow-sm">
+        <div class="ratio ratio-16x9 bg-dim position-relative">
+          <img class="cam-img" alt="Traffic camera" loading="lazy">
+        </div>
+        <div class="card-body">
+          <h6 class="card-title mb-1 text-truncate-2"><span class="cam-title"></span></h6>
+          <div class="d-flex align-items-center justify-content-between mt-2 small">
+            <span class="badge text-bg-neo cam-region">Region</span>
+            <span class="text-secondary cam-distance-wrap d-none"><i class="bi bi-pin-map-fill me-1"></i><span class="cam-distance" title="Distance from you">—</span></span>
+          </div>
+        </div>
+        <div class="card-footer d-flex align-items-center justify-content-between border-neo bg-dark-acc">
+          <div class="d-flex gap-2">
+            <button class="btn btn-sm btn-outline-neo btn-fav" title="Toggle favourite"><i class="bi bi-star"></i></button>
+            <button class="btn btn-sm btn-outline-neo btn-snap-card" title="Save snapshot"><i class="bi bi-camera-fill"></i></button>
+          </div>
+          <button class="btn btn-sm btn-outline-neo btn-open">Open</button>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <!-- Image Fullscreen Modal -->
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content bg-dark-acc text-light">
+        <div class="modal-body p-0">
+          <div class="modal-topbar d-flex align-items-center justify-content-between">
+            <div class="d-flex flex-column">
+              <div class="title" id="modalTitle">Live Camera</div>
+              <div class="sub" id="modalSub">Region</div>
+            </div>
+            <div class="d-flex gap-2">
+              <button type="button" class="btn btn-sm btn-outline-neo" id="btnSnapshot" title="Save snapshot"><i class="bi bi-camera-fill"></i></button>
+              <button type="button" class="btn btn-sm btn-outline-neo" id="btnFavToggle" title="Favourite"><i class="bi bi-star"></i></button>
+              <button type="button" class="btn btn-sm btn-outline-neo" id="btnFsToggle" title="Toggle fullscreen"><i class="bi bi-arrows-fullscreen"></i></button>
+              <button type="button" class="btn btn-sm btn-outline-neo" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+            </div>
+          </div>
+          <img id="modalImg" class="w-100 h-100" style="object-fit:contain;max-height:calc(80vh - 48px)" alt="Live camera">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="mt-auto py-3 border-top border-neo bg-dark-acc">
+    <div class="container text-center small text-secondary">
+      <strong>LIVEVIEW : <span class="text-neo">NI</span></strong> • © 2025 • Made with <span class="text-neo" aria-label="love" title="love">❤</span> by Rob
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Google Maps: insert your API key below -->
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1vm6pf2rbkzfdxOokTLAFeF0mg36HIIc&callback=initMap"></script>
+  <script src="app.js"></script>
+</body>
+</html>

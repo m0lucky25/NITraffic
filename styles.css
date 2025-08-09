@@ -1,0 +1,74 @@
+:root{
+  --neo:#39ff14; /* neon green */
+  --bg:#14181e;
+  --bg-acc:#1b2129;
+  --text:#e5e7eb;
+  --muted:#94a3b8;
+}
+html,body{height:100%;background:var(--bg);color:var(--text);} 
+.bg-dark-acc{background:var(--bg-acc)!important;}
+.border-neo{border-color:rgba(57,255,20,.25)!important;}
+.text-neo{color:var(--neo)!important;}
+.text-bg-neo{color:#0b0f14;background:var(--neo);} 
+.navbar-brand .brand-title{font-weight:800;letter-spacing:.5px}
+.navbar-brand .brand-subtitle{font-weight:500}
+
+.btn-neo{background:var(--neo);color:#0b0f14;border:1px solid #2ddb0d;box-shadow:0 0 12px rgba(57,255,20,.35);}
+.btn-neo:hover{filter:brightness(.95)}
+.btn-neo-subtle{background:transparent;border:1px solid rgba(57,255,20,.35);color:var(--text);} 
+.btn-outline-neo{color:var(--neo);border-color:rgba(57,255,20,.4)}
+.btn-outline-neo:hover{background:rgba(57,255,20,.12);color:var(--neo)}
+
+.pulse-dot{width:.6rem;height:.6rem;border-radius:50%;background:#e11d48;display:inline-block;box-shadow:0 0 0 0 rgba(225,29,72,.7);animation:pulse 1.5s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(225,29,72,.7)}70%{box-shadow:0 0 0 12px rgba(225,29,72,0)}100%{box-shadow:0 0 0 0 rgba(225,29,72,0)}}
+
+.search-wrap .form-control{background:transparent;border-color:rgba(57,255,20,.35);color:var(--text)}
+.search-wrap .form-control::placeholder{color:#7b8a9b}
+
+.bg-dim{background:linear-gradient(180deg,#0f141a 0%,#151b23 100%);} 
+.cam-card{overflow:hidden;border-radius:12px}
+.cam-card .card-title{font-weight:700}
+.text-truncate-2{display:-webkit-box;display:box;line-clamp:2;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+.cam-img{object-fit:cover;border-bottom:1px solid rgba(57,255,20,.15)}
+.cam-img.loading{filter:grayscale(100%) blur(2px);opacity:.7}
+
+/* Fade transitions */
+.fade{opacity:1;transition:opacity .6s ease}
+.fade.hide{opacity:0}
+
+#regionChips .chip{border:1px solid rgba(57,255,20,.35);border-radius:999px;padding:.35rem .75rem}
+
+/* Scrollbar subtle styling */
+*{scrollbar-width:thin;scrollbar-color:#26313e #0f141a}
+*::-webkit-scrollbar{height:10px;width:10px}
+*::-webkit-scrollbar-thumb{background:#26313e;border-radius:8px}
+
+.small, .text-secondary{color:var(--muted)!important}
+
+/* utilities */
+.badge.text-bg-neo{border:1px solid #2ddb0d}
+.ratio{background:#0f141a}
+.modal-content{border:1px solid rgba(57,255,20,.25)}
+
+/* Card footer buttons */
+.card-footer .btn{--bs-btn-padding-y:.2rem;--bs-btn-padding-x:.6rem}
+
+/* Modal overlay controls positioning */
+/* Replaced by modal topbar */
+.modal-topbar{padding:.5rem .75rem;border-bottom:1px solid rgba(57,255,20,.15);background:rgba(10,14,19,.85);backdrop-filter:blur(6px)}
+.modal-topbar .title{font-weight:700;font-size:1rem;line-height:1.1}
+.modal-topbar .sub{font-size:.8rem;color:#9aa5b1}
+
+/* Rolling Grid 2x2 */
+.rolling-grid{display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(2,0.9fr);gap:.5rem}
+.rolling-grid .cell{background:#0b1117;border:1px solid rgba(57,255,20,.15);border-radius:10px;overflow:hidden;position:relative}
+.rolling-grid img{width:100%;height:100%;object-fit:cover;display:block}
+@media (max-width: 576px){
+  .rolling-grid{grid-template-rows:repeat(2,31vh)}
+}
+
+/* Neon green checkboxes for region filter */
+#regionList input[type="checkbox"]{appearance:auto;width:1.1rem;height:1.1rem;border:1px solid #39ff14;background:transparent;cursor:pointer}
+#regionList input[type="checkbox"]:checked{background-color:#39ff14;border-color:#39ff14}
+#regionList label{color:#cfd8e3}

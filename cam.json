@@ -1,0 +1,1114 @@
+[
+    {
+      "id": 92,
+      "camera_name": "A1 Hillborough Road - Blaris Road",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/65.jpg",
+      "latitude": 54.48865109490891,
+      "longitude": -6.064792537978157
+    },
+    {
+      "id": 8,
+      "camera_name": "A12 Clifton Street",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/8.jpg",
+      "latitude": 54.60515495685512,
+      "longitude": -5.937352270038986
+    },
+    {
+      "id": 9,
+      "camera_name": "A12 Roden Street",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/4.jpg",
+      "latitude": 54.591845097488985,
+      "longitude": -5.945622261595779
+    },
+    {
+      "id": 43,
+      "camera_name": "A2 - Holywood Esplanade",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3261.jpg",
+      "latitude": 54.643080220080485,
+      "longitude": -5.835940884018757
+    },
+    {
+      "id": 118,
+      "camera_name": "A2 - Holywood Exchange",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/308.jpg",
+      "latitude": 54.62451921732678,
+      "longitude": -5.856267850521306
+    },
+    {
+      "id": 42,
+      "camera_name": "A2 - Tillysburn",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3260.jpg",
+      "latitude": 54.61906182885896,
+      "longitude": -5.861153410841302
+    },
+    {
+      "id": 22,
+      "camera_name": "Albertbridge Road - Woodstock Link",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3240.jpg",
+      "latitude": 54.595137390602424,
+      "longitude": -5.9070504253100635
+    },
+    {
+      "id": 88,
+      "camera_name": "Andersonstown Rd - Finaghy Rd Nth",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/43.jpg",
+      "latitude": 54.57280372210743,
+      "longitude": -5.995295966619824
+    },
+    {
+      "id": 27,
+      "camera_name": "Andersonstown Road / Kennedy Way",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3245.jpg",
+      "latitude": 54.57741736276224,
+      "longitude": -5.979896352567398
+    },
+    {
+      "id": 115,
+      "camera_name": "Ballygowan Road - Knock Road",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/402_1.jpg",
+      "latitude": 54.57810802653566,
+      "longitude": -5.872905326744819
+    },
+    {
+      "id": 139,
+      "camera_name": "Ballynahinch Road - Carryduff",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/249.jpg",
+      "latitude": 54.51420958812052,
+      "longitude": -5.889556303282569
+    },
+    {
+      "id": 82,
+      "camera_name": "Beersbridge Road - Castlereagh Street",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/23.jpg",
+      "latitude": 54.592755419999804,
+      "longitude": -5.900256201858807
+    },
+    {
+      "id": 48,
+      "camera_name": "Belvoir C\\'way - Newtownbreda Rd - Tesco\\'s",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3266.jpg",
+      "latitude": 54.55181650097017,
+      "longitude": -5.92194527141452
+    },
+    {
+      "id": 52,
+      "camera_name": "Boucher Road - Tates Avenue",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3270.jpg",
+      "latitude": 54.58585760726585,
+      "longitude": -5.958686642468068
+    },
+    {
+      "id": 25,
+      "camera_name": "Castlereagh Rd - Grand Parade/ Ladas Dr",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3243.jpg",
+      "latitude": 54.58511303312998,
+      "longitude": -5.889124220753695
+    },
+    {
+      "id": 1,
+      "camera_name": "Chichester Street",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/5.jpg",
+      "latitude": 54.597620035045345,
+      "longitude": -5.923898894273321
+    },
+    {
+      "id": 79,
+      "camera_name": "Dock Street - Garmoyle Street",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/7_1.jpg",
+      "latitude": 54.60890862354296,
+      "longitude": -5.920955816405065
+    },
+    {
+      "id": 39,
+      "camera_name": "Donegall Square South-Adelaide Street",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3257.jpg",
+      "latitude": 54.59605591056697,
+      "longitude": -5.928574332797574
+    },
+    {
+      "id": 84,
+      "camera_name": "Dublin Rd - Bruce Street",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/31_1.jpg",
+      "latitude": 54.5924582404351,
+      "longitude": -5.932037240697178
+    },
+    {
+      "id": 133,
+      "camera_name": "Durham St - College Sq Nth",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/10_1.jpg",
+      "latitude": 54.59767605648201,
+      "longitude": -5.938736349401275
+    },
+    {
+      "id": 81,
+      "camera_name": "East Bridge Street - Central Station",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/21.jpg",
+      "latitude": 54.59561463537757,
+      "longitude": -5.916480584910073
+    },
+    {
+      "id": 26,
+      "camera_name": "Falls Road - Donegall Road",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3244.jpg",
+      "latitude": 54.589332100873754,
+      "longitude": -5.969203624501734
+    },
+    {
+      "id": 87,
+      "camera_name": "Falls Road - Grosvenor Road",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/40_1.jpg",
+      "latitude": 54.59567609223182,
+      "longitude": -5.954837490605403
+    },
+    {
+      "id": 51,
+      "camera_name": "Finaghy Crossroads",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3269.jpg",
+      "latitude": 54.561223448954145,
+      "longitude": -5.985103689918776
+    },
+    {
+      "id": 2,
+      "camera_name": "Howard Street",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/14.jpg",
+      "latitude": 54.5955791676981,
+      "longitude": -5.934850028209338
+    },
+    {
+      "id": 46,
+      "camera_name": "Knock Road - Upper Newtownards Road",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3264.jpg",
+      "latitude": 54.59454063977727,
+      "longitude": -5.85451672560023
+    },
+    {
+      "id": 86,
+      "camera_name": "Lisburn Road - Eglantine Avenue",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/35.jpg",
+      "latitude": 54.58259365325686,
+      "longitude": -5.946335494423606
+    },
+    {
+      "id": 94,
+      "camera_name": "M1 - 00A27 South Gantry",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/104.jpg",
+      "latitude": 54.57743998427292,
+      "longitude": -5.971048133157717
+    },
+    {
+      "id": 121,
+      "camera_name": "M1 - Birches - Jct 12",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/131.jpg",
+      "latitude": 54.48145322592311,
+      "longitude": -6.539104304742041
+    },
+    {
+      "id": 120,
+      "camera_name": "M1 - Finaghy Road",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/108.jpg",
+      "latitude": 54.567777569494645,
+      "longitude": -5.991290333899274
+    },
+    {
+      "id": 95,
+      "camera_name": "M1 - Kennedy Way - Jct 2",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/105.jpg",
+      "latitude": 54.57392911800866,
+      "longitude": -5.9770840975139885
+    },
+    {
+      "id": 97,
+      "camera_name": "M1 - Lisburn Services (5A03)",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/115.jpg",
+      "latitude": 54.52337377664523,
+      "longitude": -6.004855659701722
+    },
+    {
+      "id": 101,
+      "camera_name": "M1 - Lough Rd (Lurgan) - Jct 10",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/129.jpg",
+      "latitude": 54.48387739731687,
+      "longitude": -6.357758009294432
+    },
+    {
+      "id": 141,
+      "camera_name": "M1 - M12 Ballynacor - Jct 11",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/130.jpg",
+      "latitude": 54.46607042137446,
+      "longitude": -6.410850555880698
+    },
+    {
+      "id": 100,
+      "camera_name": "M1 - Moira (City Side) - Jct 9",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/127.jpg",
+      "latitude": 54.48554446074212,
+      "longitude": -6.2064330593163115
+    },
+    {
+      "id": 110,
+      "camera_name": "M1 - Moira East Bound JCT9",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/128.jpg",
+      "latitude": 54.48888714978763,
+      "longitude": -6.215561792683308
+    },
+    {
+      "id": 98,
+      "camera_name": "M1 - Saintfield Rd (Lisburn) - Jct 6",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/120_1.jpg",
+      "latitude": 54.50543780437483,
+      "longitude": -6.029383540197354
+    },
+    {
+      "id": 96,
+      "camera_name": "M1 - Stockmans Lane",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/106.jpg",
+      "latitude": 54.572666192852914,
+      "longitude": -5.977858070773341
+    },
+    {
+      "id": 10,
+      "camera_name": "M1 Broadway",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3.jpg",
+      "latitude": 54.58499820849765,
+      "longitude": -5.963138544507986
+    },
+    {
+      "id": 11,
+      "camera_name": "M1 Stockmans Lane",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/12.jpg",
+      "latitude": 54.57767167926464,
+      "longitude": -5.971469694242067
+    },
+    {
+      "id": 99,
+      "camera_name": "M1-  Blaris West - J9",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/125.jpg",
+      "latitude": 54.49133678149652,
+      "longitude": -6.078818712020866
+    },
+    {
+      "id": 108,
+      "camera_name": "M2 - Bellevue",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/212.jpg",
+      "latitude": 54.66363458996604,
+      "longitude": -5.947718684246426
+    },
+    {
+      "id": 113,
+      "camera_name": "M2 - Duncrue St North (0B14)",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/202.jpg",
+      "latitude": 54.61340411663128,
+      "longitude": -5.9211290470199005
+    },
+    {
+      "id": 125,
+      "camera_name": "M2 - Fortwilliam North (1B16)",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/207.jpg",
+      "latitude": 54.633163021643036,
+      "longitude": -5.919609673522273
+    },
+    {
+      "id": 34,
+      "camera_name": "M2 - Greencastle - Jct 2",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3252.jpg",
+      "latitude": 54.64646033246895,
+      "longitude": -5.915924566416702
+    },
+    {
+      "id": 109,
+      "camera_name": "M2 - Sandyknowes Roundabout - Jct 4",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/215.jpg",
+      "latitude": 54.678305521751334,
+      "longitude": -5.978082098022401
+    },
+    {
+      "id": 5,
+      "camera_name": "M2 Duncrue Street",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/7.jpg",
+      "latitude": 54.613370807481516,
+      "longitude": -5.92075920733811
+    },
+    {
+      "id": 6,
+      "camera_name": "M2 Sandyknowes",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/13.jpg",
+      "latitude": 54.67268708281661,
+      "longitude": -5.974144530680604
+    },
+    {
+      "id": 122,
+      "camera_name": "M3 - Dee Street",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/303.jpg",
+      "latitude": 54.602659976631315,
+      "longitude": -5.901464179036824
+    },
+    {
+      "id": 117,
+      "camera_name": "M3 - Lagan Bridge East",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/301.jpg",
+      "latitude": 54.60197194604584,
+      "longitude": -5.917285586764874
+    },
+    {
+      "id": 7,
+      "camera_name": "M3 Lagan Bridge",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/9.jpg",
+      "latitude": 54.60197194604584,
+      "longitude": -5.917285586764874
+    },
+    {
+      "id": 50,
+      "camera_name": "Malone Road - Balmoral Avenue",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3268.jpg",
+      "latitude": 54.56344879618511,
+      "longitude": -5.951766753680358
+    },
+    {
+      "id": 49,
+      "camera_name": "Malone Road - Old Stranmillis Road",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3267.jpg",
+      "latitude": 54.57028253757415,
+      "longitude": -5.946769192665916
+    },
+    {
+      "id": 104,
+      "camera_name": "Milltown - Hospital Rd",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/408.jpg",
+      "latitude": 54.54528751636889,
+      "longitude": -5.92946382145045
+    },
+    {
+      "id": 128,
+      "camera_name": "N\\'ards RD - Albertbridge RD",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/24.jpg",
+      "latitude": 54.59809853151979,
+      "longitude": -5.892847150452445
+    },
+    {
+      "id": 124,
+      "camera_name": "Ormeau AV - Linehall ST",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/30.jpg",
+      "latitude": 54.5928555554557,
+      "longitude": -5.929525956458067
+    },
+    {
+      "id": 40,
+      "camera_name": "Ormeau Road - Annadale Embankment",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3258.jpg",
+      "latitude": 54.582349035222755,
+      "longitude": -5.9220151463224076
+    },
+    {
+      "id": 137,
+      "camera_name": "Ormeau Road - Ravenhill Road",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/244.jpg",
+      "latitude": 54.57171683545334,
+      "longitude": -5.914019661456536
+    },
+    {
+      "id": 76,
+      "camera_name": "Oxford Street - Ann Street",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/2_1.jpg",
+      "latitude": 54.59956077633642,
+      "longitude": -5.921803764630525
+    },
+    {
+      "id": 77,
+      "camera_name": "Oxford Street - Lanyon Place",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3_1.jpg",
+      "latitude": 54.59643108197787,
+      "longitude": -5.921112132549061
+    },
+    {
+      "id": 80,
+      "camera_name": "Peters Hill - Millfield",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/8_1.jpg",
+      "latitude": 54.60291173654745,
+      "longitude": -5.935422801693812
+    },
+    {
+      "id": 114,
+      "camera_name": "Saintfield Road - School Rd",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/246.jpg",
+      "latitude": 54.55771930919222,
+      "longitude": -5.90889076014061
+    },
+    {
+      "id": 111,
+      "camera_name": "Saintfield Road - Upper Galwally",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/245.jpg",
+      "latitude": 54.5653626822028,
+      "longitude": -5.9118393099957425
+    },
+    {
+      "id": 127,
+      "camera_name": "Sandy Row - Hope Street",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/11.jpg",
+      "latitude": 54.59339950990358,
+      "longitude": -5.936646941567712
+    },
+    {
+      "id": 107,
+      "camera_name": "Seaview (0B35)",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/204.jpg",
+      "latitude": 54.62339563106314,
+      "longitude": -5.920092876667124
+    },
+    {
+      "id": 3,
+      "camera_name": "Shaftesbury Square",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/16.jpg",
+      "latitude": 54.58939409722855,
+      "longitude": -5.934126500201815
+    },
+    {
+      "id": 89,
+      "camera_name": "Stewartstown Road / Michael Ferguson Roundabout",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/44_1.jpg",
+      "latitude": 54.563497138674066,
+      "longitude": -6.019950177993337
+    },
+    {
+      "id": 85,
+      "camera_name": "University Road - Stranmillis Road",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/33.jpg",
+      "latitude": 54.58368793949003,
+      "longitude": -5.9367203172358165
+    },
+    {
+      "id": 103,
+      "camera_name": "Upp K\\'Breda - Milltown Rd",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/407.jpg",
+      "latitude": 54.54618924578663,
+      "longitude": -5.931751879884355
+    },
+    {
+      "id": 131,
+      "camera_name": "Upper Knockbreda Rd - Cregagh Rd",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/404.jpg",
+      "latitude": 54.569620019107525,
+      "longitude": -5.893095442222695
+    },
+    {
+      "id": 47,
+      "camera_name": "Upper Knockbreda Rd - Upper Galwally",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3265.jpg",
+      "latitude": 54.56398306180285,
+      "longitude": -5.906358969155513
+    },
+    {
+      "id": 24,
+      "camera_name": "Upper Newtownards Rd - Dunlady Rd",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3242.jpg",
+      "latitude": 54.59485173389525,
+      "longitude": -5.798809276110057
+    },
+    {
+      "id": 23,
+      "camera_name": "Upper Newtownards Rd - Eastlink",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3241.jpg",
+      "latitude": 54.59514996174195,
+      "longitude": -5.809795362720746
+    },
+    {
+      "id": 83,
+      "camera_name": "Upper Newtownards Rd - Stoney Rd",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/26.jpg",
+      "latitude": 54.59412175738264,
+      "longitude": -5.824519731328276
+    },
+    {
+      "id": 78,
+      "camera_name": "Victoria Street - High Street",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/5_1.jpg",
+      "latitude": 54.60088251633434,
+      "longitude": -5.924475668255344
+    },
+    {
+      "id": 105,
+      "camera_name": "Westlink - Divis",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/505.jpg",
+      "latitude": 54.60023954026669,
+      "longitude": -5.939953180203575
+    },
+    {
+      "id": 106,
+      "camera_name": "Westlink - Hospital",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/590.jpg",
+      "latitude": 54.59160071182032,
+      "longitude": -5.952937545097986
+    },
+    {
+      "id": 53,
+      "camera_name": "Westlink - York Street",
+      "region": "Belfast",
+      "url": "https://cctv.trafficwatchni.com/3271.jpg",
+      "latitude": 54.6067490528084,
+      "longitude": -5.927056010409181
+    },
+    {
+      "id": 28,
+      "camera_name": "A2 Beeches Road",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/3246.jpg",
+      "latitude": 54.68451497329498,
+      "longitude": -5.8788488951913935
+    },
+    {
+      "id": 90,
+      "camera_name": "A2 Shore Rd - Trooperslane - Carrick",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/55.jpg",
+      "latitude": 54.70543000465108,
+      "longitude": -5.841092605270418
+    },
+    {
+      "id": 29,
+      "camera_name": "A2 Station Road",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/3247.jpg",
+      "latitude": 54.69294485749161,
+      "longitude": -5.8626030273419225
+    },
+    {
+      "id": 136,
+      "camera_name": "A6 Castledawson",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/232.jpg",
+      "latitude": 54.77090178692847,
+      "longitude": -6.575448066049198
+    },
+    {
+      "id": 37,
+      "camera_name": "A6 Randalstown",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/3255.jpg",
+      "latitude": 54.741654262990664,
+      "longitude": -6.344500002582232
+    },
+    {
+      "id": 38,
+      "camera_name": "A6 Toome",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/3256.jpg",
+      "latitude": 54.74944030588177,
+      "longitude": -6.450276465501561
+    },
+    {
+      "id": 135,
+      "camera_name": "Dublin Road - Antrim",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/824.jpg",
+      "latitude": 54.71938209229527,
+      "longitude": -6.220843883539977
+    },
+    {
+      "id": 61,
+      "camera_name": "Greenmount Coleraine",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/3281.jpg",
+      "latitude": 55.12046694450291,
+      "longitude": -6.679708934735594
+    },
+    {
+      "id": 63,
+      "camera_name": "Kilowen St Coleraine",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/3283.jpg",
+      "latitude": 55.13138171865337,
+      "longitude": -6.6772476982385855
+    },
+    {
+      "id": 59,
+      "camera_name": "Lodge Rd R\\'bout Lodge Coleraine",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/3278.jpg",
+      "latitude": 55.12510343802914,
+      "longitude": -6.656809812330827
+    },
+    {
+      "id": 58,
+      "camera_name": "Lodge Rd R\\'bout Newbridge Coleraine",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/3276.jpg",
+      "latitude": 55.12427590092044,
+      "longitude": -6.6558970471661505
+    },
+    {
+      "id": 102,
+      "camera_name": "M2 - Dunsilly Roundabout",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/226.jpg",
+      "latitude": 54.7449979,
+      "longitude": -6.2413679
+    },
+    {
+      "id": 134,
+      "camera_name": "M2 - Antrim Hospital",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/225.jpg",
+      "latitude": 54.73759249916697,
+      "longitude": -6.186832755949178
+    },
+    {
+      "id": 36,
+      "camera_name": "M2 - Browns Rd",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/3254.jpg",
+      "latitude": 54.69542803869789,
+      "longitude": -6.018708807170129
+    },
+    {
+      "id": 15,
+      "camera_name": "M2 Templepatrick",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/15.jpg",
+      "latitude": 54.71225522561514,
+      "longitude": -6.076623844281775
+    },
+    {
+      "id": 112,
+      "camera_name": "M22 - Dunsilly Roundabout",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/226.jpg",
+      "latitude": 54.745272146479955,
+      "longitude": -6.234167222518477
+    },
+    {
+      "id": 62,
+      "camera_name": "Old Bridge Coleraine",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/3282.jpg",
+      "latitude": 55.13163039468657,
+      "longitude": -6.6736804095471145
+    },
+    {
+      "id": 35,
+      "camera_name": "Scullions Rd",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/3253.jpg",
+      "latitude": 54.6739808818011,
+      "longitude": -5.9816768780505125
+    },
+    {
+      "id": 60,
+      "camera_name": "Strand Rd Coleraine",
+      "region": "North East",
+      "url": "https://cctv.trafficwatchni.com/3280.jpg",
+      "latitude": 55.12304058580452,
+      "longitude": -6.672679828913051
+    },
+    {
+      "id": 21,
+      "camera_name": "A37 Coleraine Mountain",
+      "region": "North West",
+      "url": "https://cctv.trafficwatchni.com/3239-1.jpg",
+      "latitude": 55.080403272947805,
+      "longitude": -6.796855385194958
+    },
+    {
+      "id": 20,
+      "camera_name": "A6 Glenshane Pass",
+      "region": "North West",
+      "url": "https://cctv.trafficwatchni.com/821-1.jpg",
+      "latitude": 54.87092679680804,
+      "longitude": -6.784552176724563
+    },
+    {
+      "id": 64,
+      "camera_name": "Ballykelly",
+      "region": "North West",
+      "url": "https://cctv.trafficwatchni.com/3284.jpg",
+      "latitude": 55.04448053193187,
+      "longitude": -7.0169355505835505
+    },
+    {
+      "id": 65,
+      "camera_name": "Belt Road",
+      "region": "North West",
+      "url": "https://cctv.trafficwatchni.com/3285.jpg",
+      "latitude": 54.98479653889489,
+      "longitude": -7.294957164315891
+    },
+    {
+      "id": 66,
+      "camera_name": "Buncrana Road",
+      "region": "North West",
+      "url": "https://cctv.trafficwatchni.com/3286.jpg",
+      "latitude": 55.01613600286064,
+      "longitude": -7.321576450092207
+    },
+    {
+      "id": 67,
+      "camera_name": "Caw Roundabout",
+      "region": "North West",
+      "url": "https://cctv.trafficwatchni.com/3287.jpg",
+      "latitude": 55.009101377217114,
+      "longitude": -7.277697324027098
+    },
+    {
+      "id": 68,
+      "camera_name": "Craigavon Bridge",
+      "region": "North West",
+      "url": "https://cctv.trafficwatchni.com/3288.jpg",
+      "latitude": 54.98912024290269,
+      "longitude": -7.315924232425126
+    },
+    {
+      "id": 69,
+      "camera_name": "Culmore Roundabout",
+      "region": "North West",
+      "url": "https://cctv.trafficwatchni.com/3289.jpg",
+      "latitude": 55.023323493081385,
+      "longitude": -7.304318676116044
+    },
+    {
+      "id": 70,
+      "camera_name": "Dales Corner/A6 Glendermott Rd - A2 ColumbraTerrace",
+      "region": "North West",
+      "url": "https://cctv.trafficwatchni.com/3290.jpg",
+      "latitude": 54.9963101618514,
+      "longitude": -7.3102237927781175
+    },
+    {
+      "id": 18,
+      "camera_name": "Foyle Bridge",
+      "region": "North West",
+      "url": "https://cctv.trafficwatchni.com/832-1.jpg",
+      "latitude": 55.01811300910359,
+      "longitude": -7.291777218301327
+    },
+    {
+      "id": 71,
+      "camera_name": "Glenshane Rd Drumahoe",
+      "region": "North West",
+      "url": "https://cctv.trafficwatchni.com/3291.jpg",
+      "latitude": 54.9507979,
+      "longitude": -7.2349199
+    },
+    {
+      "id": 72,
+      "camera_name": "Great James Street",
+      "region": "North West",
+      "url": "https://cctv.trafficwatchni.com/3292.jpg",
+      "latitude": 54.999061648323284,
+      "longitude": -7.321895987037046
+    },
+    {
+      "id": 73,
+      "camera_name": "Greenhaw",
+      "region": "North West",
+      "url": "https://cctv.trafficwatchni.com/3293.jpg",
+      "latitude": 55.02205818115264,
+      "longitude": -7.307686457752845
+    },
+    {
+      "id": 74,
+      "camera_name": "Rossdowney Road",
+      "region": "North West",
+      "url": "https://cctv.trafficwatchni.com/3294.jpg",
+      "latitude": 54.993865358260024,
+      "longitude": -7.303656845498022
+    },
+    {
+      "id": 75,
+      "camera_name": "Strand Road",
+      "region": "North West",
+      "url": "https://cctv.trafficwatchni.com/3295.jpg",
+      "latitude": 55.00992617379283,
+      "longitude": -7.317867584664244
+    },
+    {
+      "id": 56,
+      "camera_name": "A1 - B10 Overbridge Junction",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/3274.jpg",
+      "latitude": 54.340835175629906,
+      "longitude": -6.2610410884089935
+    },
+    {
+      "id": 54,
+      "camera_name": "A1 - Blaris",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/3272.jpg",
+      "latitude": 54.48865109490891,
+      "longitude": -6.064792537978157
+    },
+    {
+      "id": 57,
+      "camera_name": "A1 - Cloghoge - Newry",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/3275.jpg",
+      "latitude": 54.1470393436688,
+      "longitude": -6.3432372967949116
+    },
+    {
+      "id": 116,
+      "camera_name": "A1 - Fiveways",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/615.jpg",
+      "latitude": 54.1913488183189,
+      "longitude": -6.352098067027616
+    },
+    {
+      "id": 55,
+      "camera_name": "A1 - Hillsborough Road Roundabout",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/3273.jpg",
+      "latitude": 54.47321235317173,
+      "longitude": -6.076444223925965
+    },
+    {
+      "id": 14,
+      "camera_name": "A1 Banbridge",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/2.jpg",
+      "latitude": 54.35704870023228,
+      "longitude": -6.239081126144104
+    },
+    {
+      "id": 16,
+      "camera_name": "A1 Newry",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/1.jpg",
+      "latitude": 54.1470393436688,
+      "longitude": -6.3432372967949116
+    },
+    {
+      "id": 45,
+      "camera_name": "A2 - Ballyrobert",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/3263.jpg",
+      "latitude": 54.656479644425424,
+      "longitude": -5.758546441606168
+    },
+    {
+      "id": 44,
+      "camera_name": "A2 - Bangor Rd - Old Station Rd",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/3262.jpg",
+      "latitude": 54.65546706568081,
+      "longitude": -5.788992357228893
+    },
+    {
+      "id": 13,
+      "camera_name": "A2 Rathgael - Bangor",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/0.jpg",
+      "latitude": 54.646677040741075,
+      "longitude": -5.712929379105455
+    },
+    {
+      "id": 17,
+      "camera_name": "A24 Carryduff",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/2239-1.jpg",
+      "latitude": 54.50186822710256,
+      "longitude": -5.895472672454046
+    },
+    {
+      "id": 19,
+      "camera_name": "A28 Markethill",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/823-1.jpg",
+      "latitude": 54.295199935771315,
+      "longitude": -6.513499020395036
+    },
+    {
+      "id": 93,
+      "camera_name": "A3 Moira Road - Halftown Road",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/66.jpg",
+      "latitude": 54.5015353517418,
+      "longitude": -6.097606630214902
+    },
+    {
+      "id": 91,
+      "camera_name": "Belsize Rd - North Feeder Rd",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/61.jpg",
+      "latitude": 54.537413155300705,
+      "longitude": -6.03975572027238
+    },
+    {
+      "id": 31,
+      "camera_name": "M1 - Blacks Rd - Jct 3",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/3249.jpg",
+      "latitude": 54.55836690357605,
+      "longitude": -5.995417068355685
+    },
+    {
+      "id": 33,
+      "camera_name": "M1 - Blaris - Jct 8",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/3251.jpg",
+      "latitude": 54.492228336465494,
+      "longitude": -6.0749954466618865
+    },
+    {
+      "id": 4,
+      "camera_name": "M1 Sprucefield",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/6.jpg",
+      "latitude": 54.49378588497009,
+      "longitude": -6.06058305868322
+    },
+    {
+      "id": 30,
+      "camera_name": "Prince William Rd - Lisburn North Feeder Rd",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/3248.jpg",
+      "latitude": 54.5283505433604,
+      "longitude": -6.072924746698668
+    },
+    {
+      "id": 32,
+      "camera_name": "Saintfield Rd Roundabout Lisburn",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/3250.jpg",
+      "latitude": 54.505709246292916,
+      "longitude": -6.0283977719368735
+    },
+    {
+      "id": 41,
+      "camera_name": "Saintfield Road - Primrose Hill",
+      "region": "South East",
+      "url": "https://cctv.trafficwatchni.com/3259.jpg",
+      "latitude": 54.5458869376729,
+      "longitude": -5.903762369149682
+    },
+    {
+      "id": 126,
+      "camera_name": "Dromore Road at Asda - Omagh",
+      "region": "South West",
+      "url": "https://cctv.trafficwatchni.com/782.jpg",
+      "latitude": 54.59490121225839,
+      "longitude": -7.311412331457619
+    },
+    {
+      "id": 132,
+      "camera_name": "Dublin Road at Great Northern Road - Omagh",
+      "region": "South West",
+      "url": "https://cctv.trafficwatchni.com/781.jpg",
+      "latitude": 54.59639536148372,
+      "longitude": -7.293223745256321
+    },
+    {
+      "id": 123,
+      "camera_name": "Gaol Square - Enniskillen",
+      "region": "South West",
+      "url": "https://cctv.trafficwatchni.com/787.jpg",
+      "latitude": 54.344011141442074,
+      "longitude": -7.631520063448932
+    },
+    {
+      "id": 130,
+      "camera_name": "Gortmerron Link Road - Dungannon",
+      "region": "South West",
+      "url": "https://cctv.trafficwatchni.com/784.jpg",
+      "latitude": 54.494192568745795,
+      "longitude": -6.754953975631547
+    },
+    {
+      "id": 12,
+      "camera_name": "M1 Tamnamore",
+      "region": "South West",
+      "url": "https://cctv.trafficwatchni.com/17.jpg",
+      "latitude": 54.495808298086494,
+      "longitude": -6.654242695556881
+    },
+    {
+      "id": 119,
+      "camera_name": "Market Square - Dungannon",
+      "region": "South West",
+      "url": "https://cctv.trafficwatchni.com/785.jpg",
+      "latitude": 54.504171546683686,
+      "longitude": -6.76965553585033
+    },
+    {
+      "id": 129,
+      "camera_name": "Orritor Street-William Street - Cookstown",
+      "region": "South West",
+      "url": "https://cctv.trafficwatchni.com/786.jpg",
+      "latitude": 54.6484537711036,
+      "longitude": -6.745346212683489
+    }
+  ]
